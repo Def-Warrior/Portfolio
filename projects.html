@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Faizan Ul Hassan — Offensive Security Researcher</title>
+<meta name="description" content="Key security projects by Faizan Ul Hassan, including SubHunter, CyberOX digital forensics tool, and an AI Bug Hunter framework.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" onclick="closeMenu()">Home</a>
+  <a href="about.html" onclick="closeMenu()">About</a>
+  <a href="services.html" onclick="closeMenu()">Services</a>
+  <a href="experience.html" onclick="closeMenu()">Experience</a>
+  <a href="skills.html" onclick="closeMenu()">Skills</a>
+  <a href="projects.html" onclick="closeMenu()" class="active">Projects</a>
+  <a href="community.html" onclick="closeMenu()">Community</a>
+  <a href="credentials.html" onclick="closeMenu()">Credentials</a>
+  <a href="contact.html" onclick="closeMenu()">Contact</a>
+  <span class="m-close">// tap anywhere to close</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">faizan<span>.dev</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="community.html">Community</a></li>
+    <li><a href="credentials.html">Credentials</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-status"><div class="pulse"></div> Available for freelance</div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PROJECTS -->
+<section id="projects" class="lead-section">
+  <div class="section-inner">
+    <div class="section-tag reveal">portfolio</div>
+    <h2 class="section-title reveal">Key Projects</h2>
+    <p class="section-sub reveal">These projects demonstrate my ability to combine offensive security knowledge with software development, automation, and research.</p>
+    <div class="project-grid reveal-stagger">
+
+      <div class="project-card reveal">
+        <div class="featured-badge">FEATURED</div>
+        <div class="project-num">01 / PROJECT</div>
+        <div class="project-title">SubHunter — Subdomain Enumeration &amp; Takeover Detection</div>
+        <p class="project-desc">Built an automated workflow to enumerate subdomains, remove duplicates, check server responses, and detect potential subdomain takeover risks. Integrates multiple reconnaissance tools into a single, efficient pipeline for professional security assessments.</p>
+        <div class="project-tech">
+          <span>Python</span><span>Bash</span><span>Subfinder</span><span>Amass</span><span>HTTP Probing</span>
+        </div>
+        <a href="https://github.com/Def-Warrior" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">02 / PROJECT</div>
+        <div class="project-title">CyberOX — Digital Forensics Tool with AI Malware Detection</div>
+        <p class="project-desc">A Python command-line tool for forensic investigations, built during my ITSOLERA red team internship. Combines AI-based malware detection, network traffic capture, disk recovery, hardware data acquisition and automated report generation in one workflow.</p>
+        <div class="project-tech">
+          <span>Python</span><span>Digital Forensics</span><span>Malware Detection</span><span>Network Capture</span>
+        </div>
+        <a href="https://github.com/Def-Warrior" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">03 / PROJECT</div>
+        <div class="project-title">AI Bug Hunter Framework</div>
+        <p class="project-desc">Developed an AI-assisted bug hunting framework using prompt engineering to support vulnerability discovery, misconfiguration detection, and automated security analysis. Combines manual testing techniques with AI-guided workflows for enhanced efficiency.</p>
+        <div class="project-tech">
+          <span>Python</span><span>Prompt Engineering</span><span>AI APIs</span><span>Web Security</span>
+        </div>
+        <a href="https://github.com/Def-Warrior" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+    </div>
+
+    <div class="hof-banner reveal">
+      <div class="hof-icon">[★]</div>
+      <div class="hof-text">
+        <h3>Validated Disclosures &amp; 2× Hall of Fame</h3>
+        <p>Validated and rewarded findings at RISCO Group, LoginRadius, Nordantech (€500 bounty), goBluebird and signageOS, reported through HackerOne and coordinated disclosure programs. Every report included reproduction steps, technical analysis, CVSS scoring and practical remediation. Nothing is published without the vendor's written consent.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE CTA -->
+<section class="page-cta">
+  <div class="section-inner page-cta-inner reveal">
+    <div>
+      <div class="section-tag">get in touch</div>
+      <h2 class="cta-title">Have a build that needs the same rigor applied to it?</h2>
+    </div>
+    <a href="contact.html" class="btn-primary">Hire Me →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">Built by <span>Faizan Ul Hassan</span> — @Def-Warrior</div>
+  <div class="footer-right">Lahore, Pakistan · 2026</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
